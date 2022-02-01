@@ -1,0 +1,88 @@
+html{
+height: 100%;
+}
+body{
+    background-image: url('./images/nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e343487;
+    color: #bdc3c9;
+}
+.score{
+    color:#d1cdc4;
+    font-size: 2rem;
+    margin:0;
+    text-align: center;
+}
+.titre{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    background-size:100%;
+    background-clip: text;
+    --webkit-background-clip:text;
+    --webkit-text-fill-color: transparent;
+    --moz-background-clip:text;
+    --moz-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #526d08);
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    color: #262e06;
+}
+.start, .next{
+ 
+    cursor: pointer;
+    background: linear-gradient(180deg, #463e34, #edcfac);
+    border: 2px solid #625e5c;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.25);
+    border-radius: 1rem;
+    height:40px;
+    margin: 20px 0 ;
+    padding:0 40px;
+    color: #383734;
+}
+.start{
+    max-width: 20rem;
+}
+
+.Wrapper{
+    max-width: 110rem;
+    background: #ebfeff;
+    border-radius: 1rem;
+    border: 2px solid #0085a3;
+    padding:2rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+    text-align:center;
+}
+
+.ButtonWrapper{
+    transition: all 0.3s ease;
+}
+.ButtonWrapper:hover{
+opacity: 0.8;
+}
+button{
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.8rem;
+    width:100%;
+    height: 40px;
+    margin: 5px 0;
+    background: url();
+}
